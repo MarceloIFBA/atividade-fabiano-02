@@ -1,0 +1,95 @@
+/*
+#02520f
+#666
+#fff
+#000
+#999
+
+font-family: 'Montserrat', sans-serif;
+*/
+
+header{
+    height: 15vh;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #666;
+    font-family: 'Montserrat';
+}
+
+main{
+    height: 75vh;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+}
+
+.group-footer{
+    width: 20%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px;
+    border-spacing: 0;
+}
+
+.ranking{
+    background-color: #666;
+    color: #fff;
+    width: 10%;
+    font-size: x-large;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    text-align: center;
+    border-top: 1px solid white; 
+    border-bottom: 1px solid white; 
+    
+}
+
+.pontos{
+    font-size: x-large;
+    width: 15%;
+    font-family: 'Montserrat';
+}
+
+.img-circle{
+    width: 50px;
+    height: 50px;
+}
+
+.time{
+    font-size: xx-large;
+    font-family: 'Montserrat';
+    
+}
+
+.time img{
+    height: 40px;
+}
+
+th{  color:#fff;
+    background-color: #02520f;
+    padding: 8px;
+font-family: sans-serif ;
+}
+
+.item {
+    margin-right: 20px; /* Espaçamento entre os itens */
+    position: relative;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%; /* Para criar a forma de bola */
+    position: absolute;
+    top: -10px; /* Para posicionar a bola acima do texto */
+    left: 50%; /* Para posicionar a bola no centro do item */
+    transform: translateX(-50%); /* Para ajustar a posição horizontal da bola */
+}
